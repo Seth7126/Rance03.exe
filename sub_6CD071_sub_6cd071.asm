@@ -1,0 +1,13 @@
+// ============================================================
+// 函数名称: sub_6cd071
+// 起始地址: 0x6cd071
+// 备注: 带有 ; => 的注释为 Binary Ninja 解析出的高级语义 Token
+// ============================================================
+
+006CD071    mov edx, dword ptr ss:[esp+0x08]
+006CD075    lea eax, ds:[edx+0x0C]
+006CD078    mov ecx, dword ptr ds:[edx-0x1C]
+006CD07B    xor ecx, eax
+006CD07D    call 0x0069A5BC                                 ; => [ Call: sub_69a5bc ]
+006CD082    mov eax, 0x743588
+006CD087    jmp 0x0069E38E                                  ; => [ Call: sub_69e38e ]

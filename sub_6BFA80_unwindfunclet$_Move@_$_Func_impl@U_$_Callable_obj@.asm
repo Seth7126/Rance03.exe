@@ -1,0 +1,13 @@
+// ============================================================
+// 函数名称: __unwindfunclet$?_Move@?$_Func_impl@U?$_Callable_obj@V<lambda_9ab38a79c03e1e04423ad6818173354b>@@$0A@@std@@V?$allocator@V?$_Func_class@XU_Nil@std@@U12@U12@U12@U12@U12@U12@@std@@@2@XU_Nil@2@U42@U42@U42@U42@U42@U42@@std@@UAEPAV?$_Func_base@XU_Nil@std@@U12@U12@U12@U12@U12@U12@@2@PAX@Z$0
+// 起始地址: 0x6bfa80
+// 备注: 带有 ; => 的注释为 Binary Ninja 解析出的高级语义 Token
+// ============================================================
+
+006BFA80    mov eax, dword ptr ss:[ebp+0x08]
+006BFA83    push eax
+006BFA84    mov eax, dword ptr ss:[ebp-0x18]
+006BFA87    push eax
+006BFA88    call 0x004019F0
+006BFA8D    add esp, 0x08
+006BFA90    ret
